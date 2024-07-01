@@ -123,9 +123,10 @@ public class BoardController {
 		}
 
 		model.addAttribute("list", list);
-		model.addAttribute("board", "active");
+		// model.addAttribute("board", "active");
 		model.addAttribute("startPage", startPage);
 		model.addAttribute("endPage", endPage);
+		model.addAttribute("total", total);
 		return "board/list";
 	}
 
